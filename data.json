@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "Project 1",
+      "description": "",
+      "technologies": "",
+      "live_link": "",
+      "github_link": "",
+      "image_urls": "directory1.png"
+    },
+    {
+      "id": 2,
+      "project_name": "Project 2",
+      "description": "",
+      "technologies": "",
+      "live_link": "",
+      "github_link": "",
+      "image_urls": "form1.png"
+    },
+    {
+      "id": 3,
+      "project_name": "Project 3",
+      "description": "",
+      "technologies": "",
+      "live_link": "",
+      "github_link": "",
+      "image_urls": "game1.png"
+    },
+    {
+      "id": 4,
+      "project_name": "Project 4",
+      "description": "",
+      "technologies": "",
+      "live_link": "",
+      "github_link": "",
+      "image_urls": "pagination1.png"
+    },
+    {
+      "id": 5,
+      "project_name": "Project 5",
+      "description": "",
+      "technologies": "",
+      "live_link": "",
+      "github_link": "",
+      "image_urls": "quote.1.png"
+    }
+  ]
+}

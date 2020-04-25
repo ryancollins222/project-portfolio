@@ -7,7 +7,7 @@
       "technologies": "",
       "live_link": "",
       "github_link": "",
-      "image_urls": "directory1.png"
+      "image_urls": ["/directory1.png", "/directory2.png"]
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "technologies": "",
       "live_link": "",
       "github_link": "",
-      "image_urls": "form1.png"
+      "image_urls": ["/form1.png", "/form2.png"]
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "technologies": "",
       "live_link": "",
       "github_link": "",
-      "image_urls": "game1.png"
+      "image_urls": ["/game1.png", "/game2.png"]
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "technologies": "",
       "live_link": "",
       "github_link": "",
-      "image_urls": "pagination1.png"
+      "image_urls": ["/pagination1.png", "/pagination2.png"]
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "technologies": "",
       "live_link": "",
       "github_link": "",
-      "image_urls": "quote.1.png"
+      "image_urls": ["/quote.1.png", "/quote.2.png"]
     }
   ]
 }

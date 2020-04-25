@@ -20,7 +20,7 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/project/:id', (req, res) => {
-  console.log(req.params.id);
+  // console.log(req.params.id);
   res.render('project', {
     project: projects[req.params.id - 1]
   });

@@ -46,6 +46,13 @@ a:hover{
   color: #111;
 }
 
+.gradient-container {
+  background: linear-gradient(
+    rgb(255,255,255),
+    #007bff
+    /* rgb(255,255,255)80% */
+  );
+}
 .image{
   display: inline-block;
   max-width: 100%;
@@ -147,4 +154,8 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.portfolio-bio p {
+  color: black;
 }

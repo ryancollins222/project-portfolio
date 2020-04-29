@@ -1,7 +1,6 @@
 let express = require('express');
 let data = require('./data.json');
 let {projects} = data;
-// console.log(projects);
 
 let app = express();
 
@@ -26,4 +25,19 @@ app.get('/project/:id', (req, res) => {
   });
 })
 
-app.listen(3000);
+// 404 error
+app.use((req, res, next) => {
+  let err = new Error('This page cannot be located!  Redirecting...');
+  err.status = 404;
+  return next(err);
+});
+
+// error handler
+app.use((err, req, res, next) => {
+  console.log(`Error Status: ${err.status}.  ${err.message}`);
+  res.redirect('/');
+});
+
+app.listen(3000, () => {
+  console.log("This app is running on localhost:3000");
+});

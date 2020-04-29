@@ -2,48 +2,48 @@
   "projects": [
     {
       "id": 1,
-      "project_name": "Project 1",
-      "description": "",
-      "technologies": "",
+      "project_name": "Employee Directory",
+      "description": "Employee directory populated with Random User Generator API (https://randomuser.me/), with modal windows for detailed employee information.",
+      "technologies": ["JavaScript", "VS Code", "Github/Github Desktop", "Fetch API", "JSON"],
       "live_link": "",
-      "github_link": "",
-      "image_urls": ["/directory1.png", "/directory2.png"]
+      "github_link": "https://github.com/ryancollins222/techdegree_project_5",
+      "image_urls": ["/directory1.jpg", "/directory2.jpg"]
     },
     {
       "id": 2,
-      "project_name": "Project 2",
-      "description": "",
-      "technologies": "",
+      "project_name": "Interactive Form",
+      "description": "Interactive form with conditional rendering based upon t-shirt design, payment option selected.",
+      "technologies": ["JavaScript", "VS Code", "Github/Github Desktop"],
       "live_link": "",
-      "github_link": "",
-      "image_urls": ["/form1.png", "/form2.png"]
+      "github_link": "https://github.com/ryancollins222/techdegree_project_3",
+      "image_urls": ["/form1.jpg", "/form2.jpg"]
     },
     {
       "id": 3,
-      "project_name": "Project 3",
-      "description": "",
-      "technologies": "",
+      "project_name": "Phrase Hunter",
+      "description": "Phrase guessing game that allows users to see which letters have been guessed and how many tries are remaining.",
+      "technologies": ["JavaScript", "CSS", "VS Code", "Github/Github Desktop"],
       "live_link": "",
-      "github_link": "",
-      "image_urls": ["/game1.png", "/game2.png"]
+      "github_link": "https://github.com/ryancollins222/techdegree_project_4",
+      "image_urls": ["/game1.jpg", "/game2.jpg"]
     },
     {
       "id": 4,
-      "project_name": "Project 4",
-      "description": "",
-      "technologies": "",
+      "project_name": "Directory Pagination",
+      "description": "Pagination added to student directory to display 10 students per page.",
+      "technologies": ["JavaScript", "VS Code", "Github/Github Desktop"],
       "live_link": "",
-      "github_link": "",
-      "image_urls": ["/pagination1.png", "/pagination2.png"]
+      "github_link": "https://github.com/ryancollins222/techdegree_project_2",
+      "image_urls": ["/pagination1.jpg", "/pagination2.jpg"]
     },
     {
       "id": 5,
-      "project_name": "Project 5",
-      "description": "",
-      "technologies": "",
+      "project_name": "Random Quote Generator",
+      "description": "Randomly selects quote from array to be displayed on page.  All quotes are displayed before any are repeated.  Quotes update every 10 seconds, or with click of 'Show another quote' button.  Background updates to random color each time new quote is shown.",
+      "technologies": ["JavaScript", "VS Code", "Github/Github Desktop"],
       "live_link": "",
-      "github_link": "",
-      "image_urls": ["/quote.1.png", "/quote.2.png"]
+      "github_link": "https://github.com/ryancollins222/techdegree_project_1",
+      "image_urls": ["/quote.1.jpg", "/quote.2.jpg"]
     }
   ]
 }

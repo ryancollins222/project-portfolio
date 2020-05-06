@@ -19,7 +19,6 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/project/:id', (req, res) => {
-  // console.log(req.params.id);
   res.render('project', {
     project: projects[req.params.id - 1]
   });
@@ -29,13 +28,13 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
   let err = new Error('This page cannot be located!  Redirecting...');
   err.status = 404;
-  return next(err);
+  next(err);
 });
 
 // error handler
 app.use((err, req, res, next) => {
-  console.log(`Error Status: ${err.status}.  ${err.message}`);
   res.redirect('/');
+  console.log(`Error Status: ${err.status}.  ${err.message}`);
 });
 
 app.listen(3000, () => {

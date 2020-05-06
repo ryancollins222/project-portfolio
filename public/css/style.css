@@ -1,3 +1,6 @@
+.blue {
+  background-color: #007bff;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -48,9 +51,8 @@ a:hover{
 
 .gradient-container {
   background: linear-gradient(
-    rgb(255,255,255),
-    #007bff
-    /* rgb(255,255,255)80% */
+    #007bff,
+    rgb(255,255,255)
   );
 }
 .image{
@@ -92,7 +94,7 @@ a:hover{
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  /* border-bottom: 1px solid #eaeaea; */
 }
 
  .portfolio-breadcrumb a{
